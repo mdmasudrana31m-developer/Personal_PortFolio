@@ -9,22 +9,22 @@ const FooterSocial = () => {
     {
       id: "whatsapp",
       icon: FaWhatsapp,
-      label: "8307326657",
+      label: "01976350591",
       url: "https://wa.me/918307326657",
       color: "#128C7E",
     },
     {
       id: "linkedin",
       icon: FiLinkedin,
-      label: "in/sachinpro",
-      url: "https://www.linkedin.com/in/sachinpro/",
+      label: "in/masud",
+      url: "https://www.linkedin.com/",
       color: "#0e76a8",
     },
     {
       id: "github",
       icon: FiGithub,
-      label: "SachinPro007",
-      url: "https://github.com/SachinPro007",
+      label: "masud",
+      url: "https://github.com",
       color: themeColors.text,
     },
   ];

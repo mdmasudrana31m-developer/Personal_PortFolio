@@ -1,8 +1,7 @@
 import React, { memo } from "react";
-import Typewriter from 'typewriter-effect'
+import Typewriter from "typewriter-effect";
 import { useSelector } from "react-redux";
 import slide from "../../data/myInfo.json";
-
 
 function LeftContent() {
   const { themeColors } = useSelector((state) => state.themeReducer);
@@ -30,17 +29,21 @@ function LeftContent() {
           className="font-bold text-3xl md:text-5xl md:leading-tight max-w-3xl mx-auto"
           style={{ color: themeColors.text }}
         >
-          Hey! I'm{" "}
-          <span style={{ color: themeColors.primaryColor }}>Sachin</span>, a{" "}
-          <span>
+          Hey! I'm
+          <span style={{ color: themeColors.primaryColor }}>
+            {" Masud Rana "}
+          </span>
+          ,{" a"} <br />
+          <span className="text-orange-400">
             <Typewriter
               options={{
-                strings: ["Frontend", "MERN Stack"],
+                strings: ["Frontend", "MERN STACK"],
                 autoStart: true,
                 loop: true,
               }}
             />
-          </span>Developer.
+          </span>
+          {" Developer."}
         </h1>
       </div>
 

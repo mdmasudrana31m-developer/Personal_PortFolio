@@ -4,13 +4,9 @@ import {
   FaGithub,
   FaTwitter,
   FaLinkedin,
-  FaRedditAlien,
-  FaFacebookMessenger,
   FaInstagram,
-  FaSnapchatGhost,
   FaWhatsapp,
   FaTimes,
-  FaUserFriends,
   FaUserPlus,
 } from "react-icons/fa";
 
@@ -40,19 +36,19 @@ const FloatSocialIcons = () => {
       icon: FaGithub,
       name: "GitHub",
       color: "#181717",
-      url: "https://github.com/SachinPro007",
+      url: "https://github.com",
     },
     {
       icon: FaLinkedin,
       name: "LinkedIn",
       color: "#0A66C2",
-      url: "https://www.linkedin.com/in/sachinpro/",
+      url: "https://www.linkedin.com",
     },
     {
       icon: FaWhatsapp,
       name: "WhatsApp",
       color: "#25D366",
-      url: "https://wa.me/918307326657",
+      url: "https:www.whatsapp.com",
     },
   ];
 
@@ -277,7 +273,6 @@ const FloatSocialIcons = () => {
                   }}
                 >
                   Let's connect!
-                  {/* Tail (speech bubble pointer) */}
                   <div
                     className="absolute -right-2 top-1/2 transform -translate-y-1/2 w-3 h-3 rotate-45"
                     style={{

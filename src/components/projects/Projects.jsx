@@ -34,8 +34,8 @@ const projects = [
       "Docker",
     ],
     image: "/Ezensi.png",
-    liveDemo: "https://ezansi.onrender.com/",
-    githubRepo: "https://github.com/SachinPro007/nextjs_full_stack_ai",
+    liveDemo: "/",
+    githubRepo: "/",
     projectColor: "#4f46e5",
   },
   {
@@ -56,13 +56,13 @@ const projects = [
       "Lint-Staged",
     ],
     image: "/Full_Stack_Todo.webp",
-    liveDemo: "https://full-stack-todo-gray.vercel.app/",
-    githubRepo: "https://github.com/SachinPro007/full_stack_todo",
+    liveDemo: "/",
+    githubRepo: "/",
     projectColor: "#432dd7",
   },
   {
     title: "Modern Portfolio",
-    subtitle: "Sachin - Frontend Developer",
+    subtitle: "Masud - Frontend Developer",
     description:
       "Designed and built a fully custom, animation-rich portfolio to leave a strong first impression with custom theme controls: light/dark toggle + custom color, so visitors can personalize their experience...!",
     tags: [
@@ -73,9 +73,9 @@ const projects = [
       "Email Js",
       "AI",
     ],
-    image: "/My-Portfolio.webp",
-    liveDemo: "https://sachinpro.vercel.app/",
-    githubRepo: "https://github.com/SachinPro007/My-Portfolio",
+    image: "/comingSoon.webp",
+    liveDemo: "/",
+    githubRepo: "/",
     projectColor: "#EA580C",
   },
   {
@@ -96,8 +96,8 @@ const projects = [
       "React Slick",
     ],
     image: "/ecommerce.webp",
-    liveDemo: "https://shopease-ecomm.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ShopEase_E-Commerce",
+    liveDemo: "/",
+    githubRepo: "/",
     projectColor: "#d51243",
   },
   {
@@ -113,8 +113,8 @@ const projects = [
       "React Toastify",
     ],
     image: "/ems.webp",
-    liveDemo: "https://click-task.netlify.app",
-    githubRepo: "https://github.com/SachinPro007/ClickTask",
+    liveDemo: "/",
+    githubRepo: "/",
     projectColor: "#2563eb",
   },
 ];
@@ -196,7 +196,6 @@ const ProjectTimeline = () => {
         <div className="space-y-24 sm:space-y-32">
           {projects.map((project, index) => {
             const isHovered = hoveredProject === index;
-
             return (
               <ProjectCard
                 key={index}
@@ -258,7 +257,7 @@ const ProjectTimeline = () => {
                 >
                   calculator
                 </span>
-                ,{" "}
+                ,
                 <span
                   className="font-medium"
                   style={{ color: themeColors.accentBlue }}

@@ -55,7 +55,7 @@ const Footer = () => {
                 className="text-3xl font-light mb-2"
                 style={{ color: themeColors.primaryColor }}
               >
-                Sachin Sehrawat
+                Masud Rana
               </h2>
               <p
                 className="text-sm uppercase tracking-wider opacity-75"
@@ -115,7 +115,7 @@ const Footer = () => {
               Open to freelance, consulting, or just a tech chat over coffee.
             </p>
             <motion.a
-              href="https://www.linkedin.com/in/sachinpro/"
+              href="https://www.linkedin.com"
               target="_blank"
               className="px-6 py-3 rounded-full text-sm font-medium relative overflow-hidden"
               style={{
@@ -155,8 +155,11 @@ const Footer = () => {
             className="text-xs tracking-wider"
             style={{ color: themeColors.summeryText }}
           >
-            © {new Date().getFullYear()} <a href="https://www.linkedin.com/in/sachinpro/"><span style={{ color: themeColors.primaryColor }}>Sachin</span></a> · Coded with intent,
-            designed with care.
+            © {new Date().getFullYear()}{" "}
+            <a href="https://www.linkedin.com">
+              <span style={{ color: themeColors.primaryColor }}>Masud</span>
+            </a>{" "}
+            · Coded with intent, designed with care.
           </motion.p>
 
           <div className="flex gap-6">
@@ -183,7 +186,6 @@ const Footer = () => {
           </div>
         </div>
       </motion.div>
-
     </motion.footer>
   );
 };

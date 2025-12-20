@@ -21,7 +21,7 @@ const SectionHeader = ({ title, subtitle, highlight, align = "center" }) => {
         style={{ color: themeColors.text }}
         whileHover={{ scale: 1.02 }}
       >
-        {title}{" "}
+        {title}
         {highlight && (
           <span
             className="inline-block font-bold"

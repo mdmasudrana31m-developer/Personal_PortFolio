@@ -183,13 +183,13 @@ function ScrollingImages() {
                   className="text-base leading-snug tracking-tight"
                   style={{ color: themeColors.text }}
                 >
-                  Hi, I'm{" "}
+                  Hi, I'm
                   <span
                     className="font-bold"
                     style={{ color: themeColors.primaryColor }}
                   >
-                    Sachin
-                  </span>{" "}
+                    {' Masud'}
+                  </span>
                   — a Frontend Developer.
                 </p>
                 <p

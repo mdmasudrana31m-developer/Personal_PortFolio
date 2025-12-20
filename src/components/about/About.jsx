@@ -7,7 +7,6 @@ import RightSideContent from "./RightSideContent";
 function AboutSection() {
   const { themeColors } = useSelector((state) => state.themeReducer);
 
-
   return (
     <section
       className="py-16 px-6 md:px-10 lg:px-16"
@@ -20,7 +19,6 @@ function AboutSection() {
         <div className="flex flex-col lg:flex-row gap-14">
           {/* Education Timeline (Left Side - Unchanged) */}
           <EducationTimeLine />
-          
 
           {/* Right Side - Redesigned Approach Section */}
           <RightSideContent />

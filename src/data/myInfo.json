@@ -4,7 +4,7 @@
   "badge": "Frontend / MERN Stack </>",
   "gradient": "from-green-400 via-cyan-400 to-blue-500",
   "buttonColor": "from-green-500 to-cyan-500",
-  "image": "/Sachin-front-end-developer.webp",
+  "image": "/masud1.png",
   "experience": [
     {
       "title": " Collaborating with Backend Developer on Client Projects",
@@ -20,20 +20,20 @@
   "education": [
     {
       "location": "Dedicated full-time effort to mastering modern technologies with professional coding standards.",
-      "duration": "2024 - Present",
+      "duration": "2025 - Present",
       "title": "Frontend Specialization & Modern Web Development ",
       "icon": "💻"
     },
     {
-      "location": "Bachelor of Computer Applications (BCA)",
-      "duration": "2021 - 2024",
-      "title": "Amity University, Noida",
+      "location": "Diploma in Computer Science Engineering",
+      "duration": "2022 - 2026 (Expected)",
+      "title": "Mangrove Institute of Science and Technology",
       "icon": "🎓"
     },
     {
-      "location": "Higher Secondary Certificate",
-      "duration": "End in 2021",
-      "title": "H.S Public School",
+      "location": "Secondary School Certificate",
+      "duration": "End in 2022",
+      "title": "Sakoa High School and College",
       "icon": "🏫"
     }
   ],
