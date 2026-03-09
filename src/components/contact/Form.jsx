@@ -22,20 +22,20 @@ function Form({ itemVariants }) {
 
     emailjs
       .sendForm(
-        "service_a0f3apm", // EmailJS service ID
-        "template_r55v18y", // EmailJS template ID
+        "service_gyxumyw", // EmailJS service ID
+        "template_8ym4azz", // EmailJS template ID
         form.current,
         {
-          publicKey: "C4-lqD5NF19-WgYUq", // EmailJS publicKey
-        }
+          publicKey: "w5Fi2DsIzIzz3056P", // EmailJS publicKey
+        },
       )
       .then(() => {
-        "service_a0f3apm", // EmailJS service ID
-          "template_ujk5y3i", // EmailJS template ID
+        ("service_gyxumyw", // EmailJS service ID
+          "template_8ym4azz", // EmailJS template ID
           form.current,
           {
-            publicKey: "C4-lqD5NF19-WgYUq", // EmailJS publicKey
-          };
+            publicKey: "w5Fi2DsIzIzz3056P", // EmailJS publicKey
+          });
       })
       .then(
         () => {
@@ -47,7 +47,7 @@ function Form({ itemVariants }) {
           setStatus("error");
           setIsSubmitting(false);
           console.log("FAILED...", error.text);
-        }
+        },
       );
   };
 
