@@ -24,7 +24,7 @@ const Header = () => {
   const [customColors, setCustomColors] = useState({});
 
   const { themeColors, theme, darkTheme, lightTheme } = useSelector(
-    (state) => state.themeReducer
+    (state) => state.themeReducer,
   );
   const dispatch = useDispatch();
 
@@ -67,7 +67,7 @@ const Header = () => {
       setCustomTheme({
         ...themeColors, // Start with current theme as base
         ...customColors, // Override with custom colors
-      })
+      }),
     );
     setShowCustomThemeModal(false);
   };
@@ -123,14 +123,14 @@ const Header = () => {
         </nav>
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
-          <a href="/" target="_blank" rel="noopener noreferrer">
+          <a href="/MASUD_RESUME.pdf" target="_blank" rel="noopener noreferrer">
             <button
               className="hidden md:flex items-center gap-2 px-6 py-2 rounded-full font-semibold text-white hover:shadow-lg transition-all duration-300 cursor-pointer"
               style={{
                 background: `linear-gradient(135deg, ${themeColors.primaryColor}, ${themeColors.secondary})`,
               }}
             >
-              Resume{" "}
+              Resume
               <FiDownload className="transition-transform hover:translate-y-0.5" />
             </button>
           </a>
@@ -302,7 +302,7 @@ const Header = () => {
                   ))}
 
                   <motion.a
-                    href="/"
+                    href="/MASUD_RESUME.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block"
@@ -595,7 +595,7 @@ const Header = () => {
                     onClick={() => {
                       setShowCustomThemeModal(false);
                       setCustomColors(
-                        theme === "dark" ? darkTheme : lightTheme
+                        theme === "dark" ? darkTheme : lightTheme,
                       );
                     }}
                     className="px-4 py-2 rounded-lg font-medium"
